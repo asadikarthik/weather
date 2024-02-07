@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="dashboard">
+    <h2>Weather dashboard</h2>
+  </div>
+  <div class="container">
+    <section class="main">
+      <section class="inputs">
+        <div class="inptext">
+          <h2>Enter city name </h2>
+        </div>
+        
+        <div class="inpcity">
+          <input type="text" placeholder="Eg: chennai , banglore , mumbai .." id="cityinput">
+        </div>
+        <div class="inpsub">
+          <input type="submit" class="inpsub" value="Submit" id="add">
+          <button placeholder="submit" class="inpsub"id="add"></button>
+        </div>
+        
+      </section>
+
+     <section class="display">
+        <div class="wrapper">
+          <h2 id="cityoutput"></h2>
+          <p id="description"></p>
+          <p id="temp"></p>
+          <p id="wind"></p>
+        </div>
+      </section>
+    </section>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
